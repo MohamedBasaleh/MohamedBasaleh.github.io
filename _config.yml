@@ -1,0 +1,68 @@
+### Site Settings ###
+title               : Mohammed Basaleh
+description         : >-                               # >- means to ignore newlines until "url:"
+                      Don't ask me too much about programming,
+                      I love it and have fun it too.
+
+url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+repository          : MohamedBasaleh    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+latest_blog_post    : /articles/hactoberfest
+resume              : "https://zety.com/mycv/Mohamed_Basaleh"
+#remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
+
+### Author Info ###
+author:
+  name              : Mohammed Basaleh
+  image             : https://avatars1.githubusercontent.com/u/24945117?s=400&u=24145e672ce9f98ea10ba354ad3622a4c1ae9a30&v=4
+  email             : c.mohamed38@gmail.com
+  facebook          : mohamed.basaleh
+  github            : MohamedBasaleh
+  twitter           : mohamed92r
+  linkedin          : mohamedbasaleh
+  # instagram         : aaaddii__10
+  # behance           : c.mohamed38@gmail.com
+  # dribbble          : your_username
+  # gitlab            : your_username
+  # medium            : your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  # vimeo             : your_username
+  # youtube           : your_channel_name
+
+
+### Pagination ###
+paginate: 6
+paginate_path: "/articles/page-:num/"
+
+
+### Posts Permalink ###
+permalink: articles/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+
+### Exclude from processing ###
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock

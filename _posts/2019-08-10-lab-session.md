@@ -1,8 +1,8 @@
 ---
 title: Lab sessions
 tags: [amFOSS, coding life]
-style: fill
-color: info
+style: border
+color: primary
 description: Experince in the lab session
 --- 
 

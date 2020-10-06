@@ -4,7 +4,7 @@ tags:
 - amFOSS
 - hacktoberfest
 style: outline
-color: primary
+color: warning
 description: Experience with hacktoberfest
 ---
 

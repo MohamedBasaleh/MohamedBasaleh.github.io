@@ -30,23 +30,23 @@ Source: [netlify](https://www.netlify.com/topics/tutorials/)
 
 <br />
 
-> If you already have a Jekyll 4.0 site prepared, you can jump ahead to [Connecting to Netlify](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#connecting-to-netlify). Otherwise, let’s begin!!
+> If you already have a Jekyll 4.0 site prepared, you can jump ahead to [Connecting to Netlify](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#connecting-to-netlify). Otherwise, let’s begin!!
 
 <br>
 
 # In this post 
 
-* [Installing Jekyll](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#installing-jekyll)
-* [Preparing your project for GitHub](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#preparing-your-project-for-github)
-* [Creating your Git Repo](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#creating-your-git-repo)
-* [Connecting to Netlify :](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#connecting-to-netlify)
-    * [Step 1: Add Your New Site](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#add-your-new-site)
-    * [Step 2: Link to Your GitHub](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#link-to-your-github)
-    * [Step 3: Authorize Netlify](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#authorize-netlify)
-    * [Step 4: Choose Your Repo](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#choose-your-repo)
-    * [Step 5: Configure Your Settings](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#configure-your-settings)
-    * [Step 6: Build Your Site](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#build-your-site)
-    * [Step 7: Done](https://mohammed-basaleh.netlify.app//jekyll-with-netfily/#done)
+* [Installing Jekyll](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#installing-jekyll)
+* [Preparing your project for GitHub](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#preparing-your-project-for-github)
+* [Creating your Git Repo](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#creating-your-git-repo)
+* [Connecting to Netlify :](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#connecting-to-netlify)
+    * [Step 1: Add Your New Site](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#add-your-new-site)
+    * [Step 2: Link to Your GitHub](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#link-to-your-github)
+    * [Step 3: Authorize Netlify](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#authorize-netlify)
+    * [Step 4: Choose Your Repo](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#choose-your-repo)
+    * [Step 5: Configure Your Settings](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#configure-your-settings)
+    * [Step 6: Build Your Site](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#build-your-site)
+    * [Step 7: Done](https://mohammed-basaleh.netlify.app/articles/jekyll-with-netfily#done)
 
 
 <br />

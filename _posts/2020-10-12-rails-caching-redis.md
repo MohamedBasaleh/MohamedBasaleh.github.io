@@ -141,7 +141,7 @@ $redis = Redis::Namespace.new('your_name_site', redis: Redis.new)
   <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">index</span></span>
     employees <span class="token operator">=</span>  <span class="token variable">$redis</span><span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">:employees</span><span class="token punctuation">)</span>
     <span class="token keyword">if</span> employees<span class="token punctuation">.</span><span class="token keyword">nil</span><span class="token operator">?
-      </span>employees <span class="token operator">=</span> <span class="token constant">Category</span><span class="token punctuation">.</span>all<span class="token punctuation">.</span>to_json
+      </span>employees <span class="token operator">=</span> <span class="token constant">Employee</span><span class="token punctuation">.</span>all<span class="token punctuation">.</span>to_json
       <span class="token variable">$redis</span><span class="token punctuation">.</span>set<span class="token punctuation">(</span><span class="token string">:employees</span><span class="token punctuation">,</span> employees<span class="token punctuation">)</span>
     <span class="token keyword">end</span>
     <span class="token variable">@employees</span> <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span>parse employees
@@ -209,7 +209,7 @@ Every time the model is updated, we’re instructing Rails to clear the cache. T
 <br>
 
 
-# <span style="color:red">Conclusion :</span>
+#  <span style="color:red">Conclusion</span>
 Lower level caching is very simple and, when properly used, it is very rewarding. It can instantaneously boost your system’s performance with minimal effort. All the [demo caching redis](https://github.com/MohamedBasaleh/demo-caching-redis) in this article are available on Github.
 
-Hope enjoyed reading this. Please share your thoughts in the comments.
+Hope enjoyed reading this.

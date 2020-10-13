@@ -1,19 +1,19 @@
 - name: Git Version Control System
-  percentage: 85
+  percentage: 75
   color: success
 
 - name: Server Nginx
-  percentage: 80
+  percentage: 71
   color: info
 
 - name: Capistrano deployment
-  percentage: 95
+  percentage: 80
   color: danger
 
 - name: PostgreSQL
-  percentage: 75
+  percentage: 65
   color: 
 
 - name: HTML5 & CSS
-  percentage: 75
+  percentage: 12
   color: secondary

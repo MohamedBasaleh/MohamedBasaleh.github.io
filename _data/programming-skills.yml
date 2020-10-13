@@ -1,15 +1,15 @@
 - name: Ruby On Rails
-  percentage: 90
+  percentage: 80
   color: danger
 
 - name: Asp.Net
-  percentage: 75
+  percentage: 50
   color: dark
 
 - name: C++
-  percentage: 70
+  percentage: 40
   color: success
 
 - name: JaveScript
-  percentage: 50
+  percentage: 30
   color: secondary
